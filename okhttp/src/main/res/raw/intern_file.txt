@@ -1,0 +1,14 @@
+Ok
+This is a test to read a file using Okio, the Jack Wharton library
+https://speakerdeck.com/jakewharton/a-few-ok-libraries-droidcon-mtl-2015
+A Few 'Ok' Libraries (Droidcon MTL 2015) by Jake Wharton
+Published April 9, 2015 in Technology
+  This talk will be an in-depth look at Okio—a tiny library for interacting with bytes—and a few of the libraries written on top of it: OkHttp, Retrofit, and a newcomer named Moshi.
+
+  Okio evolved naturally inside of OkHttp before being split out into its own library. It wraps common patterns behind a friendly API for reading, writing, and processing data. We'll start with some fundamentals of the library and how it can enable you to work very close to raw data with ease.
+
+  After an introduction to Okio, we will look at three libraries written with it: OkHttp, a modern HTTP client; Retrofit, a high-level HTTP wrapper; and Moshi, a brand new library for serialization.
+
+  Not only are these libraries powerful on their own, but when combined their efficiency and performance dramatically increase. We'll conclude with demonstration of how to use them in your applications to great effect.
+
+  (Video to follow later)

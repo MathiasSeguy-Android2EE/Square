@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android2ee.formation.lib.squarelibs.view.MoshiActivity">
+    <item
+        android:id="@+id/show_okhttp"
+        android:orderInCategory="100"
+        android:title="okhttp"
+        android:icon="@drawable/ic_okhttp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/show_okio"
+        android:orderInCategory="100"
+        android:title="okio"
+        android:icon="@drawable/ic_okio"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/show_moshi"
+        android:orderInCategory="100"
+        android:title="moshi"
+        android:icon="@drawable/ic_moshi"
+        app:showAsAction="always" />
+</menu>
