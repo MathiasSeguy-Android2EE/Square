@@ -117,6 +117,8 @@ public class BusinessService {
         postSampleCall.cancel();
         putSampleCall.cancel();
         deleteSampleCall.cancel();
+        authentificateUserCall.cancel();
+        getPostOneWithErrorCall.cancel();
     }
     /***********************************************************
      *  LoadingData : GET call
@@ -413,7 +415,6 @@ public class BusinessService {
 
             }
         });
-
     }
     /***********************************************************
      *  Use a CustomCall Object
